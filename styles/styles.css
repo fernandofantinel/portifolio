@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background-color: #16181d;
+}
+
+header {
+  background-image: url('../assets/img/background_intro.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
