@@ -26,7 +26,7 @@
     </style>
 </head>
 
-<body class="overflow-x-hidden">
+<body class="bg-[#16181d] overflow-x-hidden">
   <?php include('./components/header.php'); ?>
 </body>
 

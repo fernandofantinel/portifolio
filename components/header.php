@@ -1,4 +1,4 @@
-<header class="w-[1366px] h-[682px] flex flex-col gap-20 items-center">
+<header class="w-[1366px] h-[682px] flex flex-col gap-20 items-center bg-[url('../assets/img/background_intro.png')] bg-cover bg-center bg-no-repeat">
   <div class="flex flex-col gap-14 items-center">
     <div class="h-28 w-28 rounded-full overflow-hidden border-2 border-main-red mt-30">
       <img class="w-full h-full object-cover object-center" src="../assets/img/photo.jpg" alt="Foto de Fernando Fantinel">
