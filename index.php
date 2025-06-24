@@ -28,6 +28,8 @@
 
 <body class="bg-[#16181d] overflow-x-hidden">
   <?php include('./components/header.php'); ?>
+
+  <?php include('./components/hero.php'); ?>
 </body>
 
 </html>
