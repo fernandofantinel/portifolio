@@ -1,4 +1,4 @@
-<main class="relative flex flex-col items-center gap-14 pt-18 pb-36 border border-red-500">
+<main class="relative flex flex-col items-center gap-14 pt-18 pb-36">
   <div class="flex flex-col items-center absolute top-[72px] gap-2">
     <span class="text-main-red">Meu trabalho</span>
     <span class="text-2xl font-bold leading-[1.2] text-gray-100">Veja os projetos em destaque</span>
