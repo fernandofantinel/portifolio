@@ -5,6 +5,5 @@
   </div>
   <div class="grid grid-cols-2 gap-6 absolute top-[189px] bottom-36 px-20">
     <?php include('./components/projects.php') ?>
-    <?php include('./components/projects.php') ?>
   </div>
 </main>
