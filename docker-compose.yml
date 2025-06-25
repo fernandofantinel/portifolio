@@ -2,6 +2,9 @@ version: '3.8'
 
 services:
   web:
+    build:
+      context: .        # pasta onde está a pasta docker/ e o Dockerfile
+      dockerfile: Dockerfile
     image: php:8.2-apache
     container_name: portfolio
     ports:

@@ -8,7 +8,8 @@ RUN apt-get update && \
     docker-php-source delete
 
 # 3. Configurações do Apache (mod_rewrite)
-COPY docker/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
+COPY ./docker/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
+
 RUN a2enmod rewrite
 
 # 4. Ajusta diretório de trabalho e copia código
