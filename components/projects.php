@@ -64,7 +64,7 @@ $projects = [
       </div>
       <div class="flex flex-wrap gap-2">
         <?php foreach ($project['tecnologias'] as $tecnologia): ?>
-          <div class="<?= $tecnologia['cor']; ?> rounded-full px-2 py-1">
+          <div class="<?= $tecnologia['cor']; ?> rounded-full px-3 py-1">
             <span class="text-gray-500 font-bold leading-[1.2]"><?= $tecnologia['nome']; ?></span>
           </div>
         <?php endforeach; ?>
