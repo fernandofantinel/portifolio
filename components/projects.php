@@ -8,15 +8,15 @@ $projects = [
     'tecnologias' => [
       [
         'nome' => 'PHP',
-        'cor' => 'purple'
+        'cor' => 'bg-indigo-700'
       ],
       [
         'nome' => 'HTML',
-        'cor' => 'green',
+        'cor' => 'bg-orange-500',
       ],
       [
         'nome' => 'Tailwind CSS',
-        'cor' => 'blue',
+        'cor' => 'bg-main-blue',
       ],
     ],
   ],
@@ -28,19 +28,19 @@ $projects = [
     'tecnologias' => [
       [
         'nome' => 'JavaScript',
-        'cor' => 'yellow'
+        'cor' => 'bg-yellow-300'
       ],
       [
         'nome' => 'NodeJS',
-        'cor' => 'green',
+        'cor' => 'bg-green-800',
       ],
       [
         'nome' => 'NextJS',
-        'cor' => 'blue',
+        'cor' => 'bg-zinc-200',
       ],
       [
         'nome' => 'PostgreSQL',
-        'cor' => 'red',
+        'cor' => 'bg-slate-700',
       ],
     ],
   ],
@@ -60,7 +60,7 @@ $projects = [
       </div>
       <div class="flex flex-wrap gap-2">
         <?php foreach ($project['tecnologias'] as $tecnologia): ?>
-          <div class="bg-main-<?= $tecnologia['cor']; ?> rounded-full px-2 py-1">
+          <div class="<?= $tecnologia['cor']; ?> rounded-full px-2 py-1">
             <span class="text-gray-500 font-bold leading-[1.2]"><?= $tecnologia['nome']; ?></span>
           </div>
         <?php endforeach; ?>

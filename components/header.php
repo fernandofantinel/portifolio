@@ -12,10 +12,10 @@
     </div>
   </div>
   <div class="flex gap-3">
-    <div class="bg-main-purple px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">PHP</div>
-    <div class="bg-main-red px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">Laravel</div>
-    <div class="bg-main-yellow px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">JavaScript</div>
-    <div class="bg-main-green px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">HTML</div>
+    <div class="bg-indigo-700 px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">PHP</div>
+    <div class="bg-red-400 px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">Laravel</div>
+    <div class="bg-yellow-300 px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">JavaScript</div>
+    <div class="bg-orange-500 px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">HTML</div>
     <div class="bg-main-blue px-3 py-1 gap-2 rounded-full font-bold leading-[1.2]">Tailwind CSS</div>
   </div>
 </header>
