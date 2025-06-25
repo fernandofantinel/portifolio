@@ -1,7 +1,7 @@
 <?php
 $projects = [
   [
-    'foto' => 'https://images.unsplash.com/photo-1692158962093-ba00b43fec61?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'foto' => '../assets/img/portfolio_thumb.png',
     'alt' => 'Foto do projeto do portfólio',
     'titulo' => 'Portfólio',
     'descricao' => 'Site para exibir os projetos realizados até o momento.',
@@ -21,7 +21,7 @@ $projects = [
     ],
   ],
   [
-    'foto' => 'https://images.unsplash.com/photo-1692158962093-ba00b43fec61?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'foto' => '../assets/img/clone-tabnews_thumb.png',
     'alt' => 'Foto do projeto Clone Tabnews',
     'titulo' => 'Clone Tabnews',
     'descricao' => 'Recriação do zero do tabnews.com.br. Projeto feito no curso.dev.',
