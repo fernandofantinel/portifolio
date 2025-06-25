@@ -39,6 +39,10 @@ $projects = [
         'cor' => 'bg-zinc-200',
       ],
       [
+        'nome' => 'Jest',
+        'cor' => 'bg-rose-400',
+      ],
+      [
         'nome' => 'PostgreSQL',
         'cor' => 'bg-slate-700',
       ],
