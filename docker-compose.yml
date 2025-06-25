@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    image: php:8.2-apache
+    container_name: portfolio
+    ports:
+      - "8080:80"               # mapeia porta host → container
+    volumes:
+      - ./:/var/www/html       # código fonte sincronizado
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
