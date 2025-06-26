@@ -48,6 +48,54 @@ $projects = [
       ],
     ],
   ],
+  [
+    'thumbnail' => '../assets/img/devlinks_thumb.png',
+    'alt' => 'Foto da página pessoal Devlinks',
+    'title' => 'Página pessoal',
+    'description' => 'Página pessoal para exibição dos contatos.',
+    'technologies' => [
+      [
+        'name' => 'CSS',
+        'color' => 'bg-main-blue',
+      ],
+      [
+        'name' => 'HTML',
+        'color' => 'bg-orange-500',
+      ],
+      [
+        'name' => 'JavaScript',
+        'color' => 'bg-yellow-300'
+      ],
+    ],
+  ],
+  [
+    'thumbnail' => '../assets/img/karaoke-roulette_thumb.png',
+    'alt' => 'Foto da página Karaoke Roulette',
+    'title' => 'Karaoke Roulette',
+    'description' => 'Projeto criado para se divertir cantando com amigos.',
+    'technologies' => [
+      [
+        'name' => 'ReactJS',
+        'color' => 'bg-sky-400'
+      ],
+      [
+        'name' => 'Vite',
+        'color' => 'bg-violet-500',
+      ],
+      [
+        'name' => 'JavaScript',
+        'color' => 'bg-yellow-300'
+      ],
+      [
+        'name' => 'HTML',
+        'color' => 'bg-orange-500',
+      ],
+      [
+        'name' => 'CSS',
+        'color' => 'bg-main-blue',
+      ],
+    ],
+  ],
 ];
 ?>
 
