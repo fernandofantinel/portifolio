@@ -19,7 +19,7 @@
 
     <div class="flex justify-between align-middle px-5 py-5 rounded-[8px] bg-gray-400">
       <div class="flex gap-3 justify-center">
-        <img class="text-gray-300" src="../assets/img/github-logo.svg" alt="Logo do Linkedin">
+        <img class="text-gray-300" src="../assets/img/github-logo.svg" alt="Logo do GitHub">
         <span class="text-gray-200">GitHub</span>
       </div>
       <div>
@@ -31,7 +31,7 @@
 
     <div class="flex justify-between align-middle px-5 py-5 rounded-[8px] bg-gray-400">
       <div class="flex gap-3 justify-center">
-        <img class="text-gray-300" src="../assets/img/mail-logo.svg" alt="Logo do Linkedin">
+        <img class="text-gray-300" src="../assets/img/mail-logo.svg" alt="Envelope simbolizando e-mail">
         <span class="text-gray-200">E-mail</span>
       </div>
       <div>
