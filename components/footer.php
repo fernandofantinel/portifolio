@@ -1,4 +1,4 @@
-<footer class="w-[1366px] h-[787px] mt-60 pt-32 pb-[200px] px-30 flex flex-col gap-12 items-center bg-[url('../assets/img/background_contacts.png')] bg-cover bg-center bg-no-repeat">
+<footer class="w-[1366px] h-[787px] mt-[424px] pt-32 pb-[200px] px-30 flex flex-col gap-12 items-center bg-[url('../assets/img/background_contacts.png')] bg-cover bg-center bg-no-repeat">
   <div class="flex flex-col items-center">
     <span class="text-main-purple text-xl leading-[1.2] align-top">Contato</span>
     <span class="text-gray-100 font-bold text-2xl align-top">Gostou do meu trabalho?</span>
