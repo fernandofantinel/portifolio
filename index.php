@@ -7,6 +7,7 @@
   <title>Meu Portfólio</title>
   <link rel="stylesheet" href="./styles/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="./assets/script/modal.js" defer></script>
   <style type="text/tailwindcss">
     @theme {
       --color-main-red: #E3646E;
@@ -26,12 +27,14 @@
     </style>
 </head>
 
-<body class="bg-[#16181d] overflow-x-hidden">
+<body class="bg-[#16181d] overflow-x-hidden static">
   <?php include('./components/header.php'); ?>
 
   <?php include('./components/hero.php'); ?>
 
   <?php include('./components/footer.php'); ?>
+
+  <?php include('./components/modal.php'); ?>
 </body>
 
 </html>

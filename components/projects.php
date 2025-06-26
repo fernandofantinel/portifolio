@@ -55,7 +55,7 @@ $projects = [
 
   <div class="flex gap-6 bg-gray-400 p-6 rounded-[12px] h-[204px]">
     <div class="w-56 h-[156px] flex-shrink-0">
-      <img class="w-full h-full object-cover rounded-[8px]" src="<?= $project['thumbnail']; ?>" alt="<?= $project['alt']; ?>">
+      <img class="openModal w-full h-full object-cover rounded-[8px] cursor-pointer" src="<?= $project['thumbnail']; ?>" alt="<?= $project['alt']; ?>">
     </div>
     <div class="flex flex-1 flex-col min-w-0 h-full justify-between">
       <div class="flex flex-col gap-2">
