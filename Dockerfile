@@ -1,5 +1,5 @@
 # 1. Imagem oficial PHP + Apache
-FROM php:8.2-fpm-alpine
+FROM php:8.1-fpm-alpine
 
 # 2. Instala extensões extras
 RUN apt-get update && \
