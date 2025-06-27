@@ -1,5 +1,5 @@
 # 1. Imagem oficial PHP + Apache
-FROM php:8.2-apache
+FROM php:8.1.32-apache
 
 # 2. Instala extensões extras
 RUN apt-get update && \
