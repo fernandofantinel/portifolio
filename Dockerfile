@@ -1,5 +1,5 @@
 # 1. Imagem oficial PHP + Apache
-FROM php:8.2-apache
+FROM php:8.1-fpm-alpine
 
 # 2. Instala extensões extras
 RUN apt-get update && \
@@ -8,7 +8,7 @@ RUN apt-get update && \
     docker-php-source delete
 
 # 3. Configurações do Apache (mod_rewrite)
-COPY ./docker/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
+# COPY ./docker/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
 
 RUN a2enmod rewrite
 
