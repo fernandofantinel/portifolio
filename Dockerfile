@@ -1,23 +1,16 @@
-# 1. Imagem oficial PHP + Apache
-FROM php:8.1-fpm-alpine
+FROM php:8.2-fpm-alpine AS build
+WORKDIR /app
+COPY . .
 
-# 2. Instala extensões extras
-RUN apt-get update && \
-    apt-get install -y libpq-dev libzip-dev && \
-    docker-php-ext-install pdo pdo_pgsql zip && \
-    docker-php-source delete
+RUN find components -name '*.php' \
+    | sed "s#^#require_once '/var/www/html/#" \
+    | sed 's#$#;\#/' > preload.php
 
-# 3. Configurações do Apache (mod_rewrite)
-# COPY ./docker/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
-
-RUN a2enmod rewrite
-
-# 4. Ajusta diretório de trabalho e copia código
+FROM php:8.2-fpm-alpine
 WORKDIR /var/www/html
-COPY . /var/www/html
-
-# 5. Documenta porta exposta
-EXPOSE 80
-
-# 6. Comando para iniciar Apache
-CMD ["apache2-foreground"]
+COPY --from=build /app /var/www/html
+RUN apk add --no-cache tzdata \
+    && pecl install redis \
+    && docker-php-ext-enable redis \
+    && docker-php-ext-install opcache
+COPY ./docker/php/conf.d/opcache.ini /usr/local/etc/php/conf.d/opcache.ini
