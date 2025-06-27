@@ -2,9 +2,10 @@ FROM php:8.2-fpm-alpine AS build
 WORKDIR /app
 COPY . .
 
-RUN find components -name '*.php' \
-    | sed "s#^#require_once '/var/www/html/#" \
-    | sed 's#$#;\#/' > preload.php
+RUN printf "<?php\n" > preload.php \
+ && find components -type f -name '*.php' \
+      -exec printf "require_once '/var/www/html/%s';\n" {} \; \
+      >> preload.php
 
 FROM php:8.2-fpm-alpine
 WORKDIR /var/www/html
