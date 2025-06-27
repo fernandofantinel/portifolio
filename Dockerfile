@@ -14,10 +14,4 @@ RUN a2enmod rewrite
 
 # 4. Ajusta diretório de trabalho e copia código
 WORKDIR /var/www/html
-COPY . /var/www/html
-
-# 5. Documenta porta exposta
-EXPOSE 80
-
-# 6. Comando para iniciar Apache
-CMD ["apache2-foreground"]
+COPY --from=build /app /var/www/html
